@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho API - Programação Web</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        html, body{
+            font-family: "Roboto", sans-serif;
+            background-color: #fafafa;
+            color: #101010 !important;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 id="atividade"></h1>
+        <p id="subtitulo"></p>
+        <p id="participantes"></p>
+        <p id="info-academica"></p>
+        <section>
+            <h2>Descrição</h2>
+            <p id="descricao-tecnologia"></p>
+            <p><strong>Objetivo:</strong> <span id="descricao-objetivo"></span></p>
+        </section>
+
+        <section>
+            <h2>Pontos fortes e filosofia</h2>
+            <div id="pontos-fortes"></div>
+            <p><strong>Filosofia:</strong> <span id="filosofia"></span></p>
+            <p><strong>Caso de uso ideal:</strong> <span id="caso-de-uso"></span></p>
+        </section>
+
+        <section>
+            <h2>Pré-requisitos e setup</h2>
+            <h3>Softwares necessários</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Software</th>
+                        <th>Finalidade</th>
+                    </tr>
+                </thead>
+                <tbody id="softwares"></tbody>
+            </table>
+            <h3>Comandos de instalação</h3>
+            <ol id="comandos"></ol>
+            <p id="observacao"></p>
+        </section>
+
+        <section>
+            <h2>Código do servidor</h2>
+            <p><strong>Arquivo:</strong> <code id="arquivo"></code></p>
+            <p id="codigo-descricao"></p>
+            <pre><code id="codigo-fonte"></code></pre>
+            <ul>
+                <li><strong>Execução:</strong> <code id="comando-execucao"></code></li>
+                <li><strong>URL:</strong> <a id="url-principal" target="_blank"></a></li>
+                <li><strong>Protocolo:</strong> <span id="protocolo"></span></li>
+                <li><strong>Método:</strong> <span id="metodo"></span></li>
+                <li><strong>Formato:</strong> <span id="formato"></span></li>
+            </ul>
+            <h3>Funcionamento</h3>
+            <ol id="funcionamento"></ol>
+        </section>
+
+        <section>
+            <h2>Conclusão</h2>
+            <p><strong>Principal dificuldade:</strong> <span id="dificuldade"></span></p>
+            <p><strong>Recomendação final:</strong> <span id="recomendacao"></span></p>
+        </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
